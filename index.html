@@ -29,12 +29,10 @@
 
 <body>
 
-<!-- HEADER -->
 <header class="top">
-
   <a href="#" class="logo">
     <span class="badge">
-      <img src="logo.png" alt="Shake Chilli" width="40" height="40">
+      <img src="logo.png" alt="Shake Chilli logo" width="40" height="40">
     </span>
     <span>Shake Chilli</span>
   </a>
@@ -47,15 +45,10 @@
   <button class="cart-btn" id="openCart" aria-label="Open cart">
     Cart <span id="count">0</span>
   </button>
-
 </header>
 
-
-<!-- HERO -->
 <section class="hero">
-
   <div class="hero-copy">
-
     <h1>Momos, loaded fries and dirty sodas.</h1>
 
     <p>
@@ -66,47 +59,28 @@
 
     <div class="hero-actions">
       <a class="btn" href="#menu">Order now</a>
-      <a class="btn ghost" href="tel:+918369405815">
-        Call 8369405815
-      </a>
+      <a class="btn ghost" href="tel:+918369405815">Call 8369405815</a>
     </div>
-
   </div>
 
   <div class="hero-art">
-
     <div class="arch">
-      <img src="hero.jpg"
-           alt="Crispy loaded fries with ketchup"
-           width="284"
-           height="346">
+      <img src="hero.jpg" alt="Crispy loaded fries with ketchup" width="284" height="346">
     </div>
 
     <div class="medal">
-      <img src="logo.png"
-           alt="Shake Chilli logo"
-           width="120"
-           height="120">
+      <img src="logo.png" alt="Shake Chilli logo" width="120" height="120">
     </div>
-
   </div>
-
 </section>
 
-
-<!-- MENU CATEGORIES -->
 <nav class="chips" id="chips" aria-label="Menu categories"></nav>
 
-<!-- MENU -->
 <main id="menu"></main>
 
-
-<!-- VISIT AND CONTACT -->
 <section class="visit" id="visit">
 
-  <!-- FIND US -->
   <div class="visit-location">
-
     <h2>Find us</h2>
 
     <p>
@@ -122,131 +96,78 @@
        href="https://www.google.com/maps/search/?api=1&query=Shake+Chilli+Shop+12+Building+17A+Bandra+Kurla+Complex+Mumbai+400098">
        Open in Maps
     </a>
-
   </div>
 
-
-  <!-- PREMIUM CONTACT -->
+  <!-- PREMIUM CONTACT SECTION -->
   <div class="contact-panel">
 
     <div class="contact-top">
-
       <span class="contact-label">STAY CONNECTED</span>
-
       <h2>Let's Talk<span>.</span></h2>
-
-      <p>
-        Cravings, questions or orders?
-        We're just a message away.
-      </p>
-
+      <p>Cravings, questions or orders? We're just a message away.</p>
     </div>
-
 
     <div class="contact-links">
 
-      <!-- PHONE -->
       <a href="tel:+918369405815" class="contact-link">
-
         <span class="contact-symbol">☎</span>
-
         <span class="contact-info">
           <small>CALL US</small>
           <strong>8369405815</strong>
         </span>
-
         <span class="contact-arrow">↗</span>
-
       </a>
 
-
-      <!-- WHATSAPP -->
       <a href="https://wa.me/918369405815"
-         target="_blank"
-         rel="noopener"
-         class="contact-link">
-
+         target="_blank" rel="noopener" class="contact-link">
         <span class="contact-symbol">◉</span>
-
         <span class="contact-info">
           <small>WHATSAPP</small>
           <strong>Chat with us</strong>
         </span>
-
         <span class="contact-arrow">↗</span>
-
       </a>
 
-
-      <!-- EMAIL -->
-      <a href="mailto:shakechilliindia118@gmail.com"
-         class="contact-link">
-
+      <a href="mailto:shakechilliindia118@gmail.com" class="contact-link">
         <span class="contact-symbol">✉</span>
-
         <span class="contact-info">
           <small>EMAIL</small>
           <strong>Send us an email</strong>
         </span>
-
         <span class="contact-arrow">↗</span>
-
       </a>
 
-
-      <!-- INSTAGRAM -->
       <a href="https://instagram.com/shakechilliindia"
-         target="_blank"
-         rel="noopener"
-         class="contact-link">
-
+         target="_blank" rel="noopener" class="contact-link">
         <span class="contact-symbol">◎</span>
-
         <span class="contact-info">
           <small>INSTAGRAM</small>
           <strong>@shakechilliindia</strong>
         </span>
-
         <span class="contact-arrow">↗</span>
-
       </a>
 
-
-      <!-- FACEBOOK -->
       <a href="https://www.facebook.com/share/19vMCCWvfq/"
-         target="_blank"
-         rel="noopener"
-         class="contact-link">
-
+         target="_blank" rel="noopener" class="contact-link">
         <span class="contact-symbol">f</span>
-
         <span class="contact-info">
           <small>FACEBOOK</small>
           <strong>Follow Shake Chilli</strong>
         </span>
-
         <span class="contact-arrow">↗</span>
-
       </a>
 
     </div>
-
   </div>
 
 </section>
 
-
-<!-- FOOTER -->
 <footer>
   © <span id="yr"></span> Shake Chilli. All prices in ₹.
 </footer>
 
-
-<!-- CART OVERLAY -->
 <div class="overlay" id="overlay"></div>
 
-
-<!-- CART DRAWER -->
 <aside class="drawer" id="drawer" aria-label="Your order">
 
   <div class="drawer-head">
@@ -263,38 +184,18 @@
       <strong id="total">₹0</strong>
     </div>
 
-    <input
-      id="name"
-      placeholder="Your name"
-      autocomplete="name"
-      required
-    >
+    <input id="name" placeholder="Your name" autocomplete="name" required>
 
-    <input
-      id="phone"
-      type="tel"
-      placeholder="Your phone number"
-      autocomplete="tel"
-      required
-    >
+    <input id="phone" type="tel" placeholder="Your phone number" autocomplete="tel" required>
 
     <select id="mode">
       <option value="Pickup">Pickup from outlet</option>
       <option value="Delivery">Delivery</option>
     </select>
 
-    <textarea
-      id="address"
-      rows="2"
-      placeholder="Delivery address"
-      hidden
-    ></textarea>
+    <textarea id="address" rows="2" placeholder="Delivery address" hidden></textarea>
 
-    <textarea
-      id="notes"
-      rows="2"
-      placeholder="Notes (spice level, no onion, etc.)"
-    ></textarea>
+    <textarea id="notes" rows="2" placeholder="Notes (spice level, no onion, etc.)"></textarea>
 
     <p class="err" id="err" role="alert"></p>
 
@@ -303,11 +204,8 @@
     </button>
 
   </form>
-
 </aside>
 
-
-<!-- JAVASCRIPT -->
 <script src="script.js"></script>
 
 </body>
