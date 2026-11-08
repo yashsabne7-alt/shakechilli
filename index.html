@@ -1,81 +1,314 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#0A1F13">
+
 <title>Shake Chilli | Momos, Loaded Fries, Dirty Sodas &amp; Shakes in BKC, Mumbai</title>
+
 <meta name="description" content="Shake Chilli, Kalina near BKC, Mumbai. Order momos, loaded fries, dirty sodas, milkshakes, coffee and matcha on WhatsApp.">
+
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
 <meta property="og:title" content="Shake Chilli | Momos, Loaded Fries, Dirty Sodas &amp; Shakes">
 <meta property="og:description" content="Order on WhatsApp from Shake Chilli, Kalina near BKC, Mumbai.">
 <meta property="og:type" content="website">
-<!-- After Netlify gives you a link, replace YOUR-SITE.netlify.app below with your real address -->
 <meta property="og:image" content="https://YOUR-SITE.netlify.app/og-image.jpg">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+<!-- HEADER -->
 <header class="top">
-  <a href="#" class="logo"><span class="badge"><img src="logo.png" alt="" width="40" height="40"></span><span>Shake Chilli</span></a>
-  <nav><a href="#menu">Menu</a><a href="#visit">Visit</a></nav>
-  <button class="cart-btn" id="openCart" aria-label="Open cart">Cart <span id="count">0</span></button>
+
+  <a href="#" class="logo">
+    <span class="badge">
+      <img src="logo.png" alt="Shake Chilli" width="40" height="40">
+    </span>
+    <span>Shake Chilli</span>
+  </a>
+
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#visit">Visit</a>
+  </nav>
+
+  <button class="cart-btn" id="openCart" aria-label="Open cart">
+    Cart <span id="count">0</span>
+  </button>
+
 </header>
 
+
+<!-- HERO -->
 <section class="hero">
+
   <div class="hero-copy">
+
     <h1>Momos, loaded fries and dirty sodas.</h1>
-    <p>Made to order at our outlet in Kalina, next to BKC. Choose your favourites, send the order on WhatsApp, and we start cooking.</p>
+
+    <p>
+      Made to order at our outlet in Kalina, next to BKC.
+      Choose your favourites, send the order on WhatsApp,
+      and we start cooking.
+    </p>
+
     <div class="hero-actions">
       <a class="btn" href="#menu">Order now</a>
-      <a class="btn ghost" href="tel:+918369405815">Call 8369405815</a>
+      <a class="btn ghost" href="tel:+918369405815">
+        Call 8369405815
+      </a>
     </div>
+
   </div>
+
   <div class="hero-art">
-    <div class="arch"><img src="hero.jpg" alt="Crispy loaded fries with ketchup" width="284" height="346"></div>
-    <div class="medal"><img src="logo.png" alt="Shake Chilli logo" width="120" height="120"></div>
+
+    <div class="arch">
+      <img src="hero.jpg"
+           alt="Crispy loaded fries with ketchup"
+           width="284"
+           height="346">
+    </div>
+
+    <div class="medal">
+      <img src="logo.png"
+           alt="Shake Chilli logo"
+           width="120"
+           height="120">
+    </div>
+
   </div>
+
 </section>
 
+
+<!-- MENU CATEGORIES -->
 <nav class="chips" id="chips" aria-label="Menu categories"></nav>
+
+<!-- MENU -->
 <main id="menu"></main>
 
-<section class="visit" id="visit">
-  <div>
-    <h2>Find us</h2>
-    <p>Shop 12, Ground Floor, Building 17A, Ward H/E, Bandra Kurla Complex, near Air India Road / Modern School, Santacruz East, Kalina, Mumbai, Maharashtra 400098</p>
-    <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Shake+Chilli+Shop+12+Building+17A+Bandra+Kurla+Complex+Mumbai+400098">Open in Maps</a>
-  </div>
-  <div>
-    <h2>Contact</h2>
-    <p>Phone: <a href="tel:+918369405815">8369405815</a><br>
-    WhatsApp: <a href="https://wa.me/918369405815" target="_blank" rel="noopener">8369405815</a><br>
-    Email: <a href="mailto:shakechilliindia118@gmail.com">shakechilliindia118@gmail.com</a></p>
-    <p><a href="https://instagram.com/shakechilliindia" target="_blank" rel="noopener">Instagram @shakechilliindia</a><br>
-    <a href="https://www.facebook.com/share/19vMCCWvfq/" target="_blank" rel="noopener">Facebook</a></p>
-  </div>
-</section>
-<footer>© <span id="yr"></span> Shake Chilli. All prices in ₹.</footer>
 
+<!-- VISIT AND CONTACT -->
+<section class="visit" id="visit">
+
+  <!-- FIND US -->
+  <div class="visit-location">
+
+    <h2>Find us</h2>
+
+    <p>
+      Shop 12, Ground Floor, Building 17A, Ward H/E,
+      Bandra Kurla Complex, near Air India Road /
+      Modern School, Santacruz East, Kalina,
+      Mumbai, Maharashtra 400098
+    </p>
+
+    <a class="btn"
+       target="_blank"
+       rel="noopener"
+       href="https://www.google.com/maps/search/?api=1&query=Shake+Chilli+Shop+12+Building+17A+Bandra+Kurla+Complex+Mumbai+400098">
+       Open in Maps
+    </a>
+
+  </div>
+
+
+  <!-- PREMIUM CONTACT -->
+  <div class="contact-panel">
+
+    <div class="contact-top">
+
+      <span class="contact-label">STAY CONNECTED</span>
+
+      <h2>Let's Talk<span>.</span></h2>
+
+      <p>
+        Cravings, questions or orders?
+        We're just a message away.
+      </p>
+
+    </div>
+
+
+    <div class="contact-links">
+
+      <!-- PHONE -->
+      <a href="tel:+918369405815" class="contact-link">
+
+        <span class="contact-symbol">☎</span>
+
+        <span class="contact-info">
+          <small>CALL US</small>
+          <strong>8369405815</strong>
+        </span>
+
+        <span class="contact-arrow">↗</span>
+
+      </a>
+
+
+      <!-- WHATSAPP -->
+      <a href="https://wa.me/918369405815"
+         target="_blank"
+         rel="noopener"
+         class="contact-link">
+
+        <span class="contact-symbol">◉</span>
+
+        <span class="contact-info">
+          <small>WHATSAPP</small>
+          <strong>Chat with us</strong>
+        </span>
+
+        <span class="contact-arrow">↗</span>
+
+      </a>
+
+
+      <!-- EMAIL -->
+      <a href="mailto:shakechilliindia118@gmail.com"
+         class="contact-link">
+
+        <span class="contact-symbol">✉</span>
+
+        <span class="contact-info">
+          <small>EMAIL</small>
+          <strong>Send us an email</strong>
+        </span>
+
+        <span class="contact-arrow">↗</span>
+
+      </a>
+
+
+      <!-- INSTAGRAM -->
+      <a href="https://instagram.com/shakechilliindia"
+         target="_blank"
+         rel="noopener"
+         class="contact-link">
+
+        <span class="contact-symbol">◎</span>
+
+        <span class="contact-info">
+          <small>INSTAGRAM</small>
+          <strong>@shakechilliindia</strong>
+        </span>
+
+        <span class="contact-arrow">↗</span>
+
+      </a>
+
+
+      <!-- FACEBOOK -->
+      <a href="https://www.facebook.com/share/19vMCCWvfq/"
+         target="_blank"
+         rel="noopener"
+         class="contact-link">
+
+        <span class="contact-symbol">f</span>
+
+        <span class="contact-info">
+          <small>FACEBOOK</small>
+          <strong>Follow Shake Chilli</strong>
+        </span>
+
+        <span class="contact-arrow">↗</span>
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  © <span id="yr"></span> Shake Chilli. All prices in ₹.
+</footer>
+
+
+<!-- CART OVERLAY -->
 <div class="overlay" id="overlay"></div>
+
+
+<!-- CART DRAWER -->
 <aside class="drawer" id="drawer" aria-label="Your order">
-  <div class="drawer-head"><h2>Your order</h2><button id="closeCart" aria-label="Close cart">✕</button></div>
+
+  <div class="drawer-head">
+    <h2>Your order</h2>
+    <button id="closeCart" aria-label="Close cart">✕</button>
+  </div>
+
   <div id="cartItems" class="cart-items"></div>
+
   <form id="orderForm" class="order-form" novalidate>
-    <div class="total"><span>Total</span><strong id="total">₹0</strong></div>
-    <input id="name" placeholder="Your name" autocomplete="name" required>
-    <input id="phone" type="tel" placeholder="Your phone number" autocomplete="tel" required>
-    <select id="mode"><option value="Pickup">Pickup from outlet</option><option value="Delivery">Delivery</option></select>
-    <textarea id="address" rows="2" placeholder="Delivery address" hidden></textarea>
-    <textarea id="notes" rows="2" placeholder="Notes (spice level, no onion, etc.)"></textarea>
+
+    <div class="total">
+      <span>Total</span>
+      <strong id="total">₹0</strong>
+    </div>
+
+    <input
+      id="name"
+      placeholder="Your name"
+      autocomplete="name"
+      required
+    >
+
+    <input
+      id="phone"
+      type="tel"
+      placeholder="Your phone number"
+      autocomplete="tel"
+      required
+    >
+
+    <select id="mode">
+      <option value="Pickup">Pickup from outlet</option>
+      <option value="Delivery">Delivery</option>
+    </select>
+
+    <textarea
+      id="address"
+      rows="2"
+      placeholder="Delivery address"
+      hidden
+    ></textarea>
+
+    <textarea
+      id="notes"
+      rows="2"
+      placeholder="Notes (spice level, no onion, etc.)"
+    ></textarea>
+
     <p class="err" id="err" role="alert"></p>
-    <button class="btn wa" type="submit">Send order on WhatsApp</button>
+
+    <button class="btn wa" type="submit">
+      Send order on WhatsApp
+    </button>
+
   </form>
+
 </aside>
+
+
+<!-- JAVASCRIPT -->
 <script src="script.js"></script>
+
 </body>
 </html>
